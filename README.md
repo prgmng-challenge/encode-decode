@@ -78,6 +78,10 @@ int main()
     std::cout << num << std::endl;
 }
 ```
+### Result:
+```
+12346
+```
 For more info, [check this out](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
 
 Take note of different aspects of the encoder: what is the maximum length message it can handle? These sorts of insights may simplify (or complicate) your solution.
