@@ -3,7 +3,7 @@ Figure out how encoder works, then write a decoder. C++ challenge. There will be
 
 # Challenge Description
 To complete this challenge, you will study the code in encoder.hpp to understand how it enciphers messages, then write a complementary 
-decoder that will decipher them. To work with the files, navigate to the 'src' folder and click "Download" to get a local copy of 
+decoder that will decipher them. To work with the files, click "Clone/Download" and download as a ZIP folder to get a local copy of 
 encoder.hpp and test.cpp to work with. Your solution should be a header file named ```decoder.hpp```. This file should contain a
 function with the signature: 
 ```c++
@@ -48,6 +48,7 @@ Running the example should result in the output:
 # Submitting
 In your browser, navigate to <https://github.com/prgmng-challenge/encode-decode> and click the "Fork" button at the top-right. 
 Login to your Github account and you will have your own copy of this repository. On your computer, create a folder named
-_GithubUsername-decoder_ and save your file, ```decoder.hpp```. Navigate to the 'submissions' folder, click 'Upload' and upload the
-folder. Finally, click "Create Pull Request", verify that everything is correct and finalize the pull request to complete your
-submission.
+_GithubUsername-decoder_ containing **_ONLY_** your file, ```decoder.hpp```. In your Github account, navigate to the 'submissions'
+folder, click 'Upload' and
+upload the folder. Finally, click "Create Pull Request", verify that everything is correct and finalize the pull request to complete
+your submission.
