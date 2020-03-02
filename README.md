@@ -3,7 +3,7 @@ Figure out how encoding algorithm, then write a decoder. C++ challenge. There wi
 
 # Challenge Description
 To complete this challenge, you will study the code in encoder.hpp to understand how it enciphers messages, then write a complementary 
-decoder that will decipher them. To work with the files, click "Clone/Download" and download as a ZIP folder to get a local copy of 
+decoder that will decipher them. This file is a header file. Header files serve to define functions and variables that may be used in other code by using the ```#include "headerFilename.h"``` statement (called an include directive) at the top of a ```.cpp``` file. This will allow you to call the functions or use the variables defined in the header file. To work with the files, click "Clone/Download" and download as a ZIP folder to get a local copy of 
 encoder.hpp to work with. The file test.cpp is provided as an example. Your solution should be a header file named ```decoder.hpp```. This file should contain a
 function with the signature: 
 ```c++
@@ -20,7 +20,7 @@ g++ encoder.hpp <-----Using gcc/g++
 ```
 clang encoder.hpp <-----Using LLVM Clang
 ```
-Then in the same directory, create a ```.cpp``` file, ```#include``` the encoder header file, and call the ```encode(string input)``` function:
+Then **in the same directory**, create a ```.cpp``` file, ```#include``` the encoder header file, and call the ```encode(string input)``` function:
 ```c++
 #include <iostream>
 #include <string>
