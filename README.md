@@ -1,5 +1,5 @@
 # encode-decode
-Figure out how encoding algorithm, then write a decoder. C++ challenge. There will be a Part II.
+Figure out how encoding algorithm, then write a decoder. C++ challenge. **There will be a Part II**.
 
 # Challenge Description
 To complete this challenge, you will study the code in encoder.hpp to understand how it enciphers messages, then write a complementary 
