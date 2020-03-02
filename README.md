@@ -12,7 +12,7 @@ string decoder(string input)
 that will return the deciphered message as a string. 
 
 ## Working with the header file
-The encoder is just a function in a header file. To use it, first compile the header file ```encoder.hpp``` (this example assumes you are compiling from the command line using either the GNU Compiler Collection or LLVM Clang. If you are using an IDE or other compiler follow your own procedure for compilation, just know that the header file must be compiled as well as any file that will use its functions):
+The encoder is just a function in a header file. To use it, first compile the header file ```encoder.hpp``` (this example assumes you are compiling from the command line using either the [GNU Compiler Collection (MINGW)](https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download) or [Clang](http://releases.llvm.org/9.0.0/LLVM-9.0.0-win64.exe). If you are using an IDE or other compiler follow your own procedure for compilation, just know that the header file must be compiled as well as any file that will use its functions):
 ```
 g++ encoder.hpp <-----Using gcc/g++
 ```
