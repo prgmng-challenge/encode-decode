@@ -28,7 +28,7 @@ Then **in the same directory**, create a ```.cpp``` file, ```#include``` the enc
 
 int main()
 {
-  string cipher;
+  std::string cipher;
   cipher = encode("Ich lebe mein Leben in wachsenden Ringen")
   std::cout << cipher << std::endl;
 }
@@ -52,3 +52,36 @@ _GithubUsername-decoder_ containing **_ONLY_** your file, ```decoder.hpp```. In 
 folder, click 'Upload' and
 upload the folder. Finally, click "Create Pull Request", verify that everything is correct and finalize the pull request to complete
 your submission.
+
+# Hints
+Take note of the fact that you have the source code to the encoder. You may modify it at will as you build your decoder. It may be helpful to change the way it works temporarily to assist you in building your decoder. Just make sure
+that you keep track of changes you make to it so that it functions the same as the original encoder which is what it will be tested 
+against when you submit it.
+
+A helpful C++ standard library function is ```stoi()```
+```c++
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::string alpha_num = "12345";
+    int num;
+    
+    // convert string to integer
+    num = std::stoi(alpha_num);
+    
+    // increment new integer to prove it really is an integer
+    num++;
+    
+    // print integer
+    std::cout << num << std::endl;
+}
+```
+For more info, [check this out](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
+
+Take note of different aspects of the encoder: what is the maximum length message it can handle? These sorts of insights may simplify (or complicate) your solution.
+
+**_Optional_** To keep track of changes you make to the original encoder file, you might like to install [Github Desktop](https://desktop.github.com/) on your machine. You can login to your account and download the copy of this repository you forked 
+to your local machine. As you make changes, Github Desktop will track those changes and show you exactly what you changed (including deletions and additions) before you "commit" the changes tothe repository. Even better, you may also create a new "branch" of the repo, 
+which is a "copy within a copy", allowing you to freely make changes to the repo while maintaining the original copy in place. to learn more about how to use Github Desktop, [click here](https://help.github.com/en/desktop).
