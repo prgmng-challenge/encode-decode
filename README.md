@@ -4,7 +4,7 @@ Figure out how encoder works, then write a decoder. C++ challenge. There will be
 # Challenge Description
 To complete this challenge, you will study the code in encoder.hpp to understand how it enciphers messages, then write a complementary 
 decoder that will decipher them. To work with the files, click "Clone/Download" and download as a ZIP folder to get a local copy of 
-encoder.hpp and test.cpp to work with. Your solution should be a header file named ```decoder.hpp```. This file should contain a
+encoder.hpp to work with. The file test.cpp is provided as an example. Your solution should be a header file named ```decoder.hpp```. This file should contain a
 function with the signature: 
 ```c++
 string decoder(string input)
@@ -20,7 +20,7 @@ g++ encoder.hpp <-----Using gcc/g++
 ```
 clang encoder.hpp <-----Using LLVM Clang
 ```
-Then in the same directory, create a ```.cpp``` file, ```#include``` the encoder header file, and call the ```encode()``` function:
+Then in the same directory, create a ```.cpp``` file, ```#include``` the encoder header file, and call the ```encode(string input)``` function:
 ```c++
 #include <iostream>
 #include <string>
