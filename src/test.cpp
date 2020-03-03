@@ -2,5 +2,5 @@
 
 int main()
 {
-    std::cout << encode("This is a test.");
+    std::cout << encode("123");
 }
