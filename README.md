@@ -29,7 +29,7 @@ Then **in the same directory**, create a ```.cpp``` file, ```#include``` the enc
 int main()
 {
   string cipher;
-  cipher = encode("Ich lebe mein Leben in wachsenden Ringen")
+  cipher = encode("Ich lebe mein Leben in wachsenden Ringen");
   std::cout << cipher << std::endl;
 }
 ```
